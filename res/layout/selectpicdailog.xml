@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:padding="10dp"
+        
+    >
+
+     <LinearLayout
+        android:id="@+id/select_pic_dialogue_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/sp_bg_round_corner"
+        android:layout_above="@+id/divider"
+         >
+
+        <TextView
+            android:id="@+id/sp_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/silver"
+            android:textSize="15dp" 
+            android:text="Select Photos from which Source?"/>
+
+        <TextView
+            android:id="@+id/btn_photolib"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:drawablePadding="12dp"
+            android:drawableTop="@drawable/dividerline"
+            android:gravity="center_horizontal"
+            android:paddingRight="10dp"
+            android:text="Photo Library"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btn_cam"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/dividerline"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Camera"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+	</LinearLayout>
+	<LinearLayout 
+	    android:id="@+id/divider"
+	    android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_above="@+id/bottom"
+        ></LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/sp_bg_round_corner"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/bottom"
+        >
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:text="Cancel"
+            android:textColor="@color/blue"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

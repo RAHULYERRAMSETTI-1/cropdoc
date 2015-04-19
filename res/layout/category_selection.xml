@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_color"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/garden"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/post_a_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="108dp"
+            android:src="@drawable/post" />
+
+        <ImageView
+            android:id="@+id/experiences"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="0.50"
+            android:src="@drawable/customers" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_weight="0.00"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:gravity="center_horizontal|left"
+            android:text="post a problem"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top"
+            android:text="@string/experiences"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="298dp"
+        android:layout_height="135dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/crop_details"
+            android:layout_width="134dp"
+            android:layout_height="125dp"
+            android:src="@drawable/plant1" />
+
+        <ImageView
+            android:id="@+id/crop_diseases"
+            android:layout_width="221dp"
+            android:layout_height="125dp"
+            android:src="@drawable/p1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="44dp"
+            android:gravity="center_horizontal|left"
+            android:text="crop details"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="crop diseases"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/forecst"
+            android:layout_width="134dp"
+            android:layout_height="125dp"
+            android:src="@drawable/forecasts" />
+
+        <ImageView
+            android:id="@+id/soil"
+            android:layout_width="231dp"
+            android:layout_height="112dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/soi" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="172dp"
+            android:layout_height="44dp"
+            android:gravity="center_horizontal|left|right"
+            android:text="  forecasts"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="pestwatch"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_weight="0.83"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/climate"
+            android:layout_width="134dp"
+            android:layout_height="125dp"
+            android:src="@drawable/cd" />
+
+        <ImageView
+            android:id="@+id/research"
+            android:layout_width="235dp"
+            android:layout_height="125dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/res" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.44"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|left|right"
+            android:text=" climate diagnostics"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="research data"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+    </LinearLayout>
+</LinearLayout>
+
+</ScrollView>

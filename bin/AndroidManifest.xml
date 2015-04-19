@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="brainvita.twinwaves.hoc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" ></uses-permission>
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" ></uses-permission>
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="com.android.vending.BILLING" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="brainvita.twinwaves.hoc.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		<activity
+            android:name="brainvita.twinwaves.hoc.LoginOptionsActivity"
+            android:label="Login Activity"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="brainvita.twinwaves.hoc.MainActivity"
+            android:label="Dashboard"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="brainvita.twinwaves.hoc.CategorySelectionActivity"
+            android:label="Dashboard"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="brainvita.twinwaves.hoc.LanguageSelectionActivity"
+            android:label="Dashboard"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        
+        <activity
+            android:name="brainvita.twinwaves.hoc.RegisterActivity"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="brainvita.twinwaves.hoc.Register_LoginActivity"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="andy.nasa.models.DiseasesActivity"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        
+        <activity
+            android:name="brainvita.twinwaves.hoc.Experiences"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="andy.nasa.models.ExampleContactitemActivity"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="andy.nasa.view.ContactListActivity"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        
+        <activity
+            android:name="andy.nasa.view.ContactListActivityTwo"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        <activity
+            android:name="brainvita.twinwaves.hoc.forecst"
+            android:label="Dashborad"
+            android:screenOrientation="portrait" 
+            android:logo="@drawable/logo">
+        </activity>
+        
+        
+        
+    </application>
+
+</manifest>

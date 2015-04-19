@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_color"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back2"
+    android:orientation="vertical"
+    android:padding="20dp" >
+ 
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/account"
+         android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:hint="@string/enter_your_name" 
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" 
+        android:inputType="textCapSentences"
+        
+        >
+		
+        <requestFocus />
+    </EditText>
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/addimage"
+        android:id="@+id/profile_image"
+    />
+    <EditText
+        android:id="@+id/mobile_number"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/mobileno"
+        android:drawableLeft="@drawable/mobileno"
+        android:ems="10"
+        android:hint="@string/enter_your_mobile_number" 
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" 
+        android:inputType="phone"
+        
+        >
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/crop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/account"
+        android:ems="10"
+        android:hint="enter_your_crop"
+        android:inputType="textCapSentences"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" >
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/disease"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/account"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/account"
+        android:ems="10"
+        android:hint="enter_your_disease"
+        android:inputType="textCapSentences"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" >
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="281dp"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:gravity="top|left"
+        android:hint="enter_description"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="10"
+        android:minLines="3"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white" />
+    
+    <RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content">
+	    <Button 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="50dp"
+	    	android:id="@+id/register"
+	    	android:text="@string/register"
+	    	android:background="@android:color/white"
+	    	android:textColor="@color/blue_color" 
+	    	android:layout_alignParentLeft="true"   />
+	    <Button 
+	        android:layout_width="wrap_content"
+	    	android:layout_height="50dp"
+	    	android:id="@+id/save"
+	    	android:text="@string/save"
+	    	android:background="@android:color/white"
+	    	android:textColor="@color/blue_color"
+	    	android:layout_alignParentRight="true"
+	        />
+	    
+	</RelativeLayout>
+</LinearLayout>
+
+	
+</ScrollView>

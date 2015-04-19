@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" 
+    android:background="@drawable/button_background">
+    	
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/register"
+        android:text="@string/register"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:background="@drawable/button_background"
+        android:layout_centerInParent="true"
+        
+        />
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:id="@+id/login"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:padding="15dp"
+        android:background="@drawable/button_background"
+        android:layout_centerInParent="true"
+        />
+    
+    <TextView 
+        android:id="@+id/forgot_password"
+        android:layout_below="@id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/maroon_color"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
